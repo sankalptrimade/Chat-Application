@@ -6,32 +6,34 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 
   /* Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: black transparent;
-}
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: black transparent;
+  }
 
-/* Total scrollbar */
-*::-webkit-scrollbar {
-  width: 8px;  /* vertical scrollbar width */
-  height: 8px; /* horizontal scrollbar height */
-}
+  /* Total scrollbar */
+  *::-webkit-scrollbar {
+    width: 8px;
+    /* vertical scrollbar width */
+    height: 8px;
+    /* horizontal scrollbar height */
+  }
 
-/* Track (the background) */
-*::-webkit-scrollbar-track {
-  background: transparent;
-}
+  /* Track (the background) */
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
 
-/* Handle (the draggable bar) */
-*::-webkit-scrollbar-thumb {
-  background: black;
-  border-radius: 10px;
-}
+  /* Handle (the draggable bar) */
+  *::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
 
-/* Handle on hover */
-*::-webkit-scrollbar-thumb:hover {
-  background: #222;
-}
+  /* Handle on hover */
+  *::-webkit-scrollbar-thumb:hover {
+    background: #222;
+  }
 
 }
 

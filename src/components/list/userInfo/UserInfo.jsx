@@ -1,9 +1,8 @@
-import React from 'react'
-import "./userInfo.css"
+import "./userInfo.css";
 
 const Userinfo = () => {
   return (
-    <div className='userinfo'>
+    <div className="userinfo">
       <div className="users">
         <img src="./avatar.png" alt="" />
         <h2>John Doe</h2>
@@ -14,7 +13,7 @@ const Userinfo = () => {
         <img src="./edit.png" alt="" />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Userinfo
+export default Userinfo;

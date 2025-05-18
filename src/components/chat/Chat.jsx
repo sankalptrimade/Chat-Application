@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./chat.css";
 import EmojiPicker from "emoji-picker-react";
 
@@ -160,3 +160,4 @@ const Chat = () => {
 };
 
 export default Chat;
+

@@ -1,4 +1,3 @@
-import React from "react";
 import "./detail.css";
 
 const Detail = () => {
@@ -42,7 +41,7 @@ const Detail = () => {
                 />
                 <span>photo_2024_2.png</span>
               </div>
-              <img src="./download.png" alt="" className="icon"/>
+              <img src="./download.png" alt="" className="icon" />
             </div>
             <div className="photoItem">
               <div className="photoDetail">
@@ -52,7 +51,7 @@ const Detail = () => {
                 />
                 <span>photo_2024_2.png</span>
               </div>
-              <img src="./download.png" alt="" className="icon"/>
+              <img src="./download.png" alt="" className="icon" />
             </div>
             <div className="photoItem">
               <div className="photoDetail">
@@ -62,7 +61,7 @@ const Detail = () => {
                 />
                 <span>photo_2024_2.png</span>
               </div>
-              <img src="./download.png" alt="" className="icon"/>
+              <img src="./download.png" alt="" className="icon" />
             </div>
           </div>
         </div>

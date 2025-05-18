@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./login.css";
 import { toast } from "react-toastify";
 
@@ -17,10 +17,10 @@ const Login = () => {
     }
   };
 
-  const handleLogin = (e) => {  
+  const handleLogin = (e) => {
     e.preventDefault();
     toast.success("Login successful");
-  }
+  };
 
   return (
     <div className="login">
@@ -42,7 +42,8 @@ const Login = () => {
         <form>
           <label htmlFor="file">
             <img src={avatar.url || "./avatar.png"} alt="" />
-            Upload an Image</label>
+            Upload an Image
+          </label>
           <input
             type="file"
             id="file"
